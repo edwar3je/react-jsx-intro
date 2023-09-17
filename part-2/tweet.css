@@ -1,0 +1,37 @@
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.meta-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.username {
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.name {
+    font-size: 10px;
+    color: #48494b;
+    margin-left: 4px;
+}
+
+.date {
+    font-size: 10px;
+    color: #48494b;
+    margin-left: 4px;
+}
+
+.message {
+    font-size: 10px;
+    color: #000000;
+    text-align: start;
+}
